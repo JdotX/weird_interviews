@@ -15,3 +15,15 @@ b.append(2) # Append on original
 ```
 
 I have a video explaining the concept in Chinese: https://www.bilibili.com/video/BV1EV411o7jC/
+
+## 2. Address related operators.
+
+To obtain the address of a Python object, ```id``` operator is used. In some cases you only compare the address of two python objects, ```is``` operator is used, whereas == only compare values.
+
+```python
+a = 1
+b = a
+a is b
+id(a)
+id(b)
+```
